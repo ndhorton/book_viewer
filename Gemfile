@@ -1,11 +1,11 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "sinatra"
-gem "sinatra-contrib"
-gem "erubi"
-gem "webrick"
+gem 'erubi'
+gem 'sinatra'
+gem 'sinatra-contrib'
+gem 'webrick'
 
-ruby "3.2.2"
+ruby '3.4.4'
 
-gem "rackup", "~> 2.2"
-gem "puma", "~> 7.1"
+gem 'puma', '~> 7.1'
+gem 'rackup', '~> 2.2'
